@@ -1,15 +1,10 @@
 package org.launchcode.techjobs.persistent;
 
-import mockit.Expectations;
-import mockit.Mocked;
 import org.junit.jupiter.api.Test;
-import org.launchcode.techjobs.persistent.controllers.HomeController;
 import org.launchcode.techjobs.persistent.models.AbstractEntity;
 import org.launchcode.techjobs.persistent.models.Employer;
 import org.launchcode.techjobs.persistent.models.Job;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.ExtendedModelMap;
-import org.springframework.ui.Model;
 
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
